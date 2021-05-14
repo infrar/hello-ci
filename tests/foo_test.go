@@ -8,3 +8,10 @@ func TestFoo(t *testing.T) {
 		t.Errorf("ans = %d; want 1", got)
 	}
 }
+
+func TestBar(t *testing.T) {
+	got := 2
+	if got != 1 {
+		t.Errorf("ans = %d; want 1", got)
+	}
+}
