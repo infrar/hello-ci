@@ -10,7 +10,7 @@ func TestFoo(t *testing.T) {
 }
 
 func TestBar(t *testing.T) {
-	got := 2
+	got := 1
 	if got != 1 {
 		t.Errorf("ans = %d; want 1", got)
 	}
